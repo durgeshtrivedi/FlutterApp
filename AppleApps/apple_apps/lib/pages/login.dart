@@ -17,7 +17,7 @@ class Login extends StatelessWidget {
         body: Center(
           child: Column(
             children: [
-              Image.asset(AppImages.loginImage, fit: BoxFit.cover),
+              Image.asset(AppImages.loginImage, fit: BoxFit.fill),
               const TextField(),
               const TextField(),
               const ElevatedButton(
