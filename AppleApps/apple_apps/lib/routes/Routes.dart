@@ -1,5 +1,5 @@
-import 'package:apple_apps/pages/HomeScreen.dart';
-import 'package:apple_apps/pages/login.dart';
+import 'package:apple_apps/screens/Home.dart';
+import 'package:apple_apps/screens/login.dart';
 import 'package:flutter/material.dart';
 
 class AppRoutes {
@@ -13,7 +13,7 @@ class AppRoutes {
 
 enum Routes {
   login("/login", Login()),
-  home("/", HomeScreen(title: "App Home"));
+  home("/", Home(title: "App Home"));
 
   final String route;
   final Widget screen;
