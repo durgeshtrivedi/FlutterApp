@@ -7,6 +7,7 @@ class Constants {
 class RestorationIdTextField {
   static const String name = "name_field";
   static const String password = "password_field";
+  static const String helperTextPassword = "Please enter 8 char password";
   static const String hintName = "Please enter your name";
   static const String hintPassword = "Please enter your password";
   static const String scrollView = "scroll_view";
